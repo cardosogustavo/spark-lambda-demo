@@ -1,5 +1,9 @@
 # spark-lambda-demo
-A short Lambda Architecture demonstration using Apache Spark to process data
+A short Lambda Architecture demonstration using Apache Spark to process data.
+
+The design can be found here: https://excalidraw.com/#json=NntHcyJ0llQK4e2oNXeDJ,uoI17OPgdtn2YEjDu1S_-w
+
+It is a simple demo, just to show the power and simplicity of Apache Spark.
 
 # data generation
 The file **data_generation.c** contains a simple logic to generate random numbers and save them to text files inside **data_lake** folder.
