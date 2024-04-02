@@ -29,3 +29,5 @@ The transformation in the PySpark file is very simple. It counts how many instan
 Spark automaticaly partitions the files depending on the size. So if you want more than one partition, generate a lot of data either by setting a low interval or just let the program run for some time.
 
 It saves data locally, so be careful.
+
+To run the Spark part, navigate to **spark** folder and run: _spark-submit <path_to_processing.py_file>_
